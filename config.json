@@ -1,7 +1,7 @@
 {
     "enabled": true,
     "schemaURL": "https://raw.githubusercontent.com/blissman/testFiles/main/schema.json",
-    "dataURL": "",
+    "dataURL": "https://jsonplaceholder.typicode.com/posts",
     "expected": {
         "userIds": [
             "customer_id",
