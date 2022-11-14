@@ -1,6 +1,7 @@
 {
     "enabled": false,
     "schemaURL": "https://raw.githubusercontent.com/blissman/testFiles/main/schema.json",
+    "dataURL": "",
     "expected": {
         "userIds": [
             "customer_id",
