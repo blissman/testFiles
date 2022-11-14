@@ -1,4 +1,60 @@
 {
     "enabled": false,
-    "schemaURL": "https://raw.githubusercontent.com/blissman/testFiles/main/schema.json"
+    "schemaURL": "https://raw.githubusercontent.com/blissman/testFiles/main/schema.json",
+    "expected": {
+        "userIds": [
+            "customer_id",
+            "email"
+        ],
+        "userAttributes": [
+            "bdu_provider",
+            "customer_type",
+            "subscription_type"
+        ],
+        "data": [
+            "custom_event_type",
+            "custom_flags",
+            "event_name",
+            "timestamp_unixtime_ms",
+            "session_uuid",
+            "session_start_unixtime_ms",
+            "custom_attributes",
+            "location",
+            "source_message_id",
+            "screen_name"
+        ],
+        "customAttributes": [
+            "content_title",
+            "content_duration",
+            "content_id",
+            "content_type",
+            "stream_type",
+            "media_session_id",
+            "playhead_position",
+            "media_session_start_time",
+            "media_session_end_time",
+            "media_time_spent",
+            "media_content_time_spent",
+            "media_content_complete",
+            "media_session_segment_total",
+            "media_total_ad_time_spent",
+            "media_ad_time_spent_rate",
+            "media_session_ad_total",
+            "search",
+            "referrer",
+            "url",
+            "path",
+            "title",
+            "section_level_1",
+            "section_level_2",
+            "section_level_3",
+            "page_type",
+            "profile_language",
+            "profile_playback_language",
+            "keywords",
+            "tags",
+            "platform_id",
+            "profile_id"
+        ]
+    }
 }
